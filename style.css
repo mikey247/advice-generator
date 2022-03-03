@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Josefin+Sans:wght@200;700&family=Manrope:wght@800&family=Open+Sans&family=Roboto:ital,wght@0,400;1,700&family=Saira+Condensed:wght@300&display=swap");
+
+body {
+  background-color: #202632;
+}
+.container {
+  max-width: 30%;
+  margin: 10rem auto;
+  text-align: center;
+  /* border: 2px solid white; */
+  background-color: #313a49;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.advice-text {
+  color: #a1b0bb;
+  font-family: "Manrope", sans-serif;
+}
+
+h5 {
+  color: #65c1a1;
+  font-family: "Open Sans", sans-serif;
+}
+.divider-image {
+  max-width: 20rem;
+  padding-bottom: 30px;
+}
+.dice-button {
+  background-color: #58ffaa;
+  border: none;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  cursor: pointer;
+  margin-bottom: -100px;
+}
