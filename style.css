@@ -35,3 +35,45 @@ h5 {
   cursor: pointer;
   margin-bottom: -100px;
 }
+
+@media (max-width: 375px) {
+  html {
+    font-size: 12px;
+  }
+  .container {
+    max-width: 80%;
+    margin: 10rem auto;
+  }
+  .dice-button {
+    background-color: #58ffaa;
+    border: none;
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+  .container {
+    max-width: 90%;
+    margin: 10rem auto;
+  }
+  h5 {
+    font-size: 1.5rem;
+  }
+  .advice-text {
+    font-size: 2rem;
+  }
+  .dice-button {
+    background-color: #58ffaa;
+    border: none;
+    border-radius: 50%;
+    width: 4.5rem;
+    height: 4.5rem;
+    cursor: pointer;
+  }
+}
